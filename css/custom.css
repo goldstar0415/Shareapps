@@ -1,0 +1,235 @@
+.site-about-us-btn {
+  position: absolute;
+  z-index: 999;
+  background-color: #167fc7;
+  top: 50%;
+  left: calc(50% - 50px);
+  font-size: 15px;
+  font-weight: bold;
+  box-shadow: 0px 0px 10px 3px rgba(0,0,0,0.7)!important;
+  border: 0;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px!important;
+}
+.login-register-formoverlay{
+  position:fixed;
+  z-index:1000;
+  width:100%;
+  height:100vh;
+  background-color:rgba(0,0,0, 0.8);
+  display: table;
+  opacity: 0;
+  visibility: hidden;
+  transition: all .5s ease-out;
+}
+.site-about-us-form-div{
+  position: relative;
+  padding: 20px;
+  text-align: center;
+  height: 70vh;
+  background-color: #fff;
+  width: 60vw;
+  margin: 0 auto;
+  border-radius: 10px!important;
+  box-shadow: 0 0 5px 1px rgba(255,255,255,0.6);
+  transition: all .7s ease-out;
+}
+.site-about-us-form-div-close-btn{
+  position: absolute;
+  top: 0px;
+  right: 10px;
+  font-size: 25px;
+}
+.site-about-us-form-container-div {
+  max-height:50vh;
+  overflow-y:scroll;
+  margin-top: 50px;
+}
+.site-about-us-form-container {
+  width:100%;
+  text-align:left;
+  padding-left:35px;
+}
+#background-video {
+  min-height: 99vh;
+}
+.login-register-page-logo {
+  position: absolute;
+  top: 20px;
+  left: 10px;
+}
+.loginpage-video-div{
+  float: right;
+}
+.login-form-footer-div{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+.login-footer p {
+  margin: 0;
+}
+.login-copyright>p>a {
+  color: #7f7f7f;
+  font-size: 12px;
+}
+.login-copyright>p {
+  color: #7f7f7f;
+  font-size: 12px;
+}
+.site-help-page-div{
+  min-height: 75vh;
+  max-height: 75vh;
+  overflow-y: scroll;
+  padding-left: 30px;
+}
+.site-help-page-div p{
+  color: initial!important;
+}
+.sitehelp-back-button {
+  position:absolute;
+  top:20px;
+  left:20px;
+}
+.footer-div-new-design-row {
+  background-color: #000;
+  min-height: 7vh;
+}
+.footer-div-new-design-col{
+  background-color: #fff;
+  min-height: 7vh;
+}
+.page-footer-inner{
+  text-align: center;
+}
+.page-footer-inner a{
+  color: #98a6ba;
+}
+
+.user-managebutton-size{
+  width: 88px;
+}
+.sitehelp-header-bar {
+  width: 100%;
+  height: 100px;
+  background: linear-gradient(#969696, #ffffff);
+}
+.sitehelp-page-logo{
+  margin-top: 35px;
+}
+.sitehelp-footer-bar{
+    position: absolute;
+    width: 100%;
+    padding: 20px 0;
+    bottom: -60px;
+}
+.login-page-video-div{
+  width:100%;
+  height:100vh;
+}
+#tnc-error {
+  color: #ea3d4a;
+}
+@media(min-width: 992px) {
+  .login-container{
+    display: flex;
+    flex-flow: row wrap;
+    align-content: space-between;
+  }
+  .visibility-hide {
+    display: block!important;
+  }
+  .visibility-show {
+    display: none;
+  }
+}
+@media(max-width:991px){
+  .site-about-us-form-div{
+    width: 70vw;
+  }
+  .site-about-us-form-container {
+    padding-left: 25px;
+  }
+  .loginpage-video-div{
+    float: none;
+  }
+  #background-video {
+    min-height: unset;
+    margin-top: 40px;
+  }
+  .login-form-footer-div {
+    position: relative;
+    background-color: #545454;
+  }
+  .login-footer {
+    padding: 5px 0!important;
+  }
+  .login-copyright>p>a {
+    color: #fff;
+    font-size: 10px;
+  }
+  .login-copyright>p {
+    color: #fff;
+    font-size: 10px;
+  }
+  .site-help-page-div {
+    min-height: 87vh;
+    max-height: 87vh;
+  }
+  .sitehelp-back-button {
+    top:-35px;
+  }
+  .footer-div-new-design-row {
+    background-color: #000;
+    height: auto;
+    min-height: 5vh;
+  }
+  .footer-div-new-design-col{
+    background-color: #525252;
+    height: auto;
+    min-height: 5vh;
+  }
+  .login-page-video-div{
+    height:auto;
+    padding-bottom: 20px;
+  }
+}
+@media(max-width: 767px){
+  .site-help-page-div {
+    min-height: 75vh;
+    max-height: 75vh;
+  }
+  .page-footer-inner{
+    float: none!important;
+    text-align: center;
+    display: block!important;
+  }
+}
+@media(max-width: 499px){
+  .site-about-us-form-container-div{
+    max-height:50vh;
+    margin-top: -10px;
+  }
+  .site-about-us-form-container {
+    padding-left: 10px;
+  }
+  .login-register-page-logo {
+    left: calc(50% - 110px);
+  }
+  .page-logo{
+    float: none;
+    display: inline-block;
+    margin: 0 auto!important;
+    margin-left: calc(50% - 50px)!important;
+  }
+  .sitehelp-header-bar {
+    height: 70px;
+  }
+  .sitehelp-page-logo{
+    margin-top: 20px;
+  }
+  .sitehelp-logo-align{
+    text-align: center;
+  }
+}
